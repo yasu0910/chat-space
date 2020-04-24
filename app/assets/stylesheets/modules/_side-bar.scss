@@ -1,0 +1,51 @@
+.side-bar{
+  width: 300px;
+  &__header{
+    background-color: #253141;
+    height: 100px;
+    padding: 0 20px;
+    align-items: center;
+    display: flex;
+    &__top-items{
+      background-color: #253141;
+      height: 20px;
+      width: 260px;
+      display: flex;
+      justify-content:space-between;
+      line-height: 20px;
+
+      &__name{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      &__icons{
+        width: 60px;
+        display: flex;
+        padding-left: 20px;
+        .fa-edit{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+
+  &__main{
+    background-color: #2f3e51;
+    height: calc(100vh - 100px);
+      &__top-group{
+        font-size: 15px;
+        color: white;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+      }
+      &__top-message{
+        font-size: 11px;
+        color: white;
+        padding-left: 20px;
+      }
+  }
+}

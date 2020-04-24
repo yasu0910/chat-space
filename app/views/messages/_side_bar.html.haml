@@ -1,1 +1,19 @@
-<サイドバー>
+-# <サイドバー>
+.side-bar
+  .side-bar__header
+    .side-bar__header__top-items
+      .side-bar__header__top-items__name
+        masa
+      .side-bar__header__top-items__icons
+        = link_to "#", class: "contents__btn" do
+          = icon('far', 'edit')
+        = link_to "#", class: "contents__btn" do
+          = icon('fas', 'cog')
+
+  .side-bar__main
+    .side-bar__main__top-group
+      techcamp
+    .side-bar__main__top-message
+      まだメッセージがありません
+
+
