@@ -14,8 +14,8 @@ $(function(){
                 <div class="main-chat__main__message-text">
                   <p class="main-chat__main__message-text">
                     ${message.content}
+                    <img src=${message.image} >
                   </p>
-                  <img src=${message.image} >
                 </div>
             </div>`
           return html;
