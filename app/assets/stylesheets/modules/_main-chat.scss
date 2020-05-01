@@ -13,9 +13,18 @@
             color: #333333;
           }
           .group-member{
-            font-size: 12px;
-            color: #999999;
-            margin-top:15px;
+            display: flex;
+            .div{
+              font-size: 12px;
+              color: #999999;
+              margin-top:15px;
+              padding-right: 5px;
+            }
+            &-name{
+              font-size: 12px;
+              color: #999999;
+              margin-top:15px;
+            }
           }
       }
 

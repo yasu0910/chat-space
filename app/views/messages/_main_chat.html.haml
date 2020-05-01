@@ -5,8 +5,11 @@
       .group-name
         = @group.name
       .group-member
-        - @group.users.each do |user|
-          = user.name
+        .div  
+          ="Member : "
+        .group-member-name
+          - @group.users.each do |user|
+            = user.name
     .main-chat__header__edit-btn
       = link_to edit_group_path(params[:group_id]), class: "edit-btn" do
         Edit
